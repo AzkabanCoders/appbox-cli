@@ -53,7 +53,7 @@ jobs:
 
 workflows:
   version: 2
-  "pandora-cli":
+  "appbox-cli":
     jobs:
       - node-latest
       - node-8
