@@ -3,12 +3,12 @@
 An UI Builder command line utility
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/pandora-cli.svg)](https://npmjs.org/package/pandora-cli)
-[![CircleCI](https://circleci.com/gh/klaytonfaria/pandora-cli/tree/master.svg?style=shield)](https://circleci.com/gh/klaytonfaria/pandora-cli/tree/master)
-[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/klaytonfaria/pandora-cli?branch=master&svg=true)](https://ci.appveyor.com/project/klaytonfaria/pandora-cli/branch/master)
-[![Codecov](https://codecov.io/gh/klaytonfaria/pandora-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/klaytonfaria/pandora-cli)
-[![Downloads/week](https://img.shields.io/npm/dw/pandora-cli.svg)](https://npmjs.org/package/pandora-cli)
-[![License](https://img.shields.io/npm/l/pandora-cli.svg)](https://github.com/klaytonfaria/pandora-cli/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/appbox-cli.svg)](https://npmjs.org/package/appbox-cli)
+[![CircleCI](https://circleci.com/gh/klaytonfaria/appbox-cli/tree/master.svg?style=shield)](https://circleci.com/gh/klaytonfaria/appbox-cli/tree/master)
+[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/klaytonfaria/appbox-cli?branch=master&svg=true)](https://ci.appveyor.com/project/klaytonfaria/appbox-cli/branch/master)
+[![Codecov](https://codecov.io/gh/klaytonfaria/appbox-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/klaytonfaria/appbox-cli)
+[![Downloads/week](https://img.shields.io/npm/dw/appbox-cli.svg)](https://npmjs.org/package/appbox-cli)
+[![License](https://img.shields.io/npm/l/appbox-cli.svg)](https://github.com/klaytonfaria/appbox-cli/blob/master/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
