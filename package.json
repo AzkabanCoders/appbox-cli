@@ -48,7 +48,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "klaytonfaria/appbox-cli",
+  "repository": "AzkabanCoders/appbox-cli",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json npm-shrinkwrap.json",
     "posttest": "eslint .",
