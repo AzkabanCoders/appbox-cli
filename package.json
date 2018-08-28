@@ -1,0 +1,59 @@
+{
+  "name": "pandora-cli",
+  "description": "Pandora - UI Builder command-line utility",
+  "version": "0.0.0",
+  "author": "Azkaban Coders (https://github.com/AzkabanCoders)",
+  "bin": {
+    "pandora": "./bin/run"
+  },
+  "bugs": "https://github.com/AzkabanCoders/pandora-cli/issues",
+  "contributors": [
+    "Emilio Aiolfi <emilio.aiolfi@gmail.com> (https://github.com/EmilioAiolfi)",
+    "Klayton Faria <klayton.souza@gmail.com> (https://github.com/klaytonfaria)"
+  ],
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "@oclif/test": "^1",
+    "chai": "^4",
+    "eslint": "^5",
+    "eslint-config-oclif": "^3",
+    "globby": "^8",
+    "mocha": "^5",
+    "nyc": "^12"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/AzkabanCoders/pandora-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "pandora",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "klaytonfaria/pandora-cli",
+  "scripts": {
+    "postpack": "rm -f oclif.manifest.json npm-shrinkwrap.json",
+    "posttest": "eslint .",
+    "prepack": "oclif-dev manifest && oclif-dev readme && npm shrinkwrap",
+    "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
