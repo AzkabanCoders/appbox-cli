@@ -1,12 +1,12 @@
 {
-  "name": "pandora-cli",
-  "description": "Pandora - UI Builder command-line utility",
+  "name": "appbox-cli",
+  "description": "AppBox - An UI Builder command-line utility",
   "version": "0.0.0",
   "author": "Azkaban Coders (https://github.com/AzkabanCoders)",
   "bin": {
-    "pandora": "./bin/run"
+    "appbox": "./bin/run"
   },
-  "bugs": "https://github.com/AzkabanCoders/pandora-cli/issues",
+  "bugs": "https://github.com/AzkabanCoders/appbox-cli/issues",
   "contributors": [
     "Emilio Aiolfi <emilio.aiolfi@gmail.com> (https://github.com/EmilioAiolfi)",
     "Klayton Faria <klayton.souza@gmail.com> (https://github.com/klaytonfaria)"
@@ -35,7 +35,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/AzkabanCoders/pandora-cli",
+  "homepage": "https://github.com/AzkabanCoders/appbox-cli",
   "keywords": [
     "oclif"
   ],
@@ -43,12 +43,12 @@
   "main": "src/index.js",
   "oclif": {
     "commands": "./src/commands",
-    "bin": "pandora",
+    "bin": "appbox",
     "plugins": [
       "@oclif/plugin-help"
     ]
   },
-  "repository": "klaytonfaria/pandora-cli",
+  "repository": "klaytonfaria/appbox-cli",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json npm-shrinkwrap.json",
     "posttest": "eslint .",
