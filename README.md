@@ -2,7 +2,6 @@
 ===========
 An UI Builder command line utility
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/appbox-cli.svg)](https://npmjs.org/package/appbox-cli)
 [![CircleCI](https://circleci.com/gh/AzkabanCoders/appbox-cli/tree/master.svg?style=shield)](https://circleci.com/gh/AzkabanCoders/appbox-cli/tree/master)
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/AzkabanCoders/appbox-cli?branch=master&svg=true)](https://ci.appveyor.com/project/AzkabanCoders/appbox-cli/branch/master)
