@@ -7,7 +7,7 @@ An UI Builder command line utility
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/AzkabanCoders/appbox-cli?branch=master&svg=true)](https://ci.appveyor.com/project/AzkabanCoders/appbox-cli/branch/master)
 [![Codecov](https://codecov.io/gh/AzkabanCoders/appbox-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/AzkabanCoders/appbox-cli)
 [![Downloads/week](https://img.shields.io/npm/dw/appbox-cli.svg)](https://npmjs.org/package/appbox-cli)
-[![License](https://img.shields.io/npm/l/appbox-cli.svg)](https://github.com/AzkabanCoders/appbox-cli/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/appbox-cli.svg)](https://github.com/AzkabanCoders/appbox-cli/blob/master/.github/LICENSE)
 
 <!-- toc -->
 * [Usage](#usage)
